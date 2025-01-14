@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { rootReducer } from "./rootReducer";
+import { rootReducer } from "./rootReducer.ts";
 import { useMemo } from "react";
 
 const initializeStore = () => {

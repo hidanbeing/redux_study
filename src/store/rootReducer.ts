@@ -1,5 +1,5 @@
-import { MyActions } from "./MyActions";
-import { MyState } from "./MyState";
+import { MyActions } from "./MyActions.ts";
+import { MyState } from "./MyState.ts";
 
 const initalAppState = {
   today: new Date(),
